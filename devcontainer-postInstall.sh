@@ -13,7 +13,7 @@ set -eo
 #nvm install --lts
 
 # Copy ssh key
-cp /localenv/.ssh/id_ed25519 ~/.ssh
+# cp /localenv/.ssh/id_ed25519 ~/.ssh
 
 # Setup git user.email
 git config --global user.email "dmorand@gmail.com"
